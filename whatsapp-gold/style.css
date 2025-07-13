@@ -1,0 +1,49 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  background: #fff;
+  color: #111;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+.hero {
+  background: linear-gradient(to right, #ffd700, #ffbf00);
+  color: #000;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+h1, h2, h3 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+ul, ol {
+  margin: 20px;
+}
+
+.download-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.download-section a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-gold { background-color: #d4af37; }
+.btn-red { background-color: #d33c3c; }
+.btn-blue { background-color: #2d80ef; }
+.btn-black { background-color: #1a1a1a; }
+.btn-plus { background-color: #888; }
