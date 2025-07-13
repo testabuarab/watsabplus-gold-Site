@@ -1,49 +1,47 @@
+/* عرض المحتوى داخل صفحة الهاتف */
 body {
-  font-family: "Tajawal", sans-serif;
-  background: #fff;
-  color: #111;
   margin: 0;
   padding: 0;
-  line-height: 1.8;
+  font-family: "Tajawal", sans-serif;
+  font-size: 16px;
 }
 
-.hero {
-  background: linear-gradient(to right, #ffd700, #ffbf00);
-  color: #000;
-  text-align: center;
-  padding: 40px 10px;
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding: 15px;
 }
 
-h1, h2, h3 {
-  color: #222;
-  margin-bottom: 10px;
+/* عناصر الهيدر */
+.hero h1 {
+  font-size: 24px;
 }
 
-p {
-  margin: 10px 0;
+.hero p {
+  font-size: 16px;
 }
 
-ul, ol {
-  margin: 20px;
-}
-
-.download-section {
-  text-align: center;
-  margin-top: 40px;
-}
-
+/* الأزرار */
 .download-section a {
-  display: inline-block;
-  margin: 10px;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #fff;
+  display: block;
+  width: 90%;
+  margin: 10px auto;
+  padding: 14px;
+  font-size: 16px;
 }
 
-.btn-gold { background-color: #d4af37; }
-.btn-red { background-color: #d33c3c; }
-.btn-blue { background-color: #2d80ef; }
-.btn-black { background-color: #1a1a1a; }
-.btn-plus { background-color: #888; }
+/* تصميم متجاوب للشاشات الصغيرة */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 22px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .feature-list li {
+    font-size: 14px;
+  }
+}
